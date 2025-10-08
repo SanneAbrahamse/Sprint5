@@ -12,7 +12,13 @@
     </Shell.TitleView>
 
     <Border Stroke="#C49B33" StrokeThickness="4" Padding="10" Margin="10" HorizontalOptions="Center">
-        <CollectionView ItemsSource="{Binding Categories}" Margin="20" HorizontalOptions="Center">
+        <!-- 👇 HIER voeg je het event toe -->
+        <CollectionView ItemsSource="{Binding Categories}"
+                        Margin="20"
+                        HorizontalOptions="Center"
+                        SelectionMode="Single"
+                        SelectionChanged="OnCategorySelected">
+            
             <CollectionView.ItemsLayout>
                 <LinearItemsLayout Orientation="Vertical" ItemSpacing="10" />
             </CollectionView.ItemsLayout>
