@@ -9,7 +9,6 @@ namespace TestCore
         {
         }
 
-
         //Happy flow
         [Test]
         public void TestPasswordHelperReturnsTrue()
@@ -25,7 +24,6 @@ namespace TestCore
         {
             Assert.IsTrue(PasswordHelper.VerifyPassword(password, passwordHash));
         }
-
 
         //Unhappy flow
         [Test]
