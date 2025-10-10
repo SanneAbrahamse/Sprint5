@@ -19,10 +19,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Grocery.Core\Grocery.Core.csproj" />
+      <ProjectReference Include="..\Grocery.Core.Data\Grocery.Core.Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Using Include="NUnit.Framework" />
-  </ItemGroup>
+    <ItemGroup>
+        <Using Include="NUnit.Framework" />
+    </ItemGroup>
 
 </Project>
