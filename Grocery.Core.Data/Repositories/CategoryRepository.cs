@@ -32,4 +32,19 @@ public class CategoryRepository : ICategoryRepository
     {
         return categoryList;
     }
+
+    public Category Add(Category item)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Category? Delete(Category item)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Category? Update(Category item)
+    {
+        throw new NotImplementedException();
+    }
 }
