@@ -24,8 +24,5 @@ public class CategoriesViewModel : BaseViewModel
         {
             Categories.Add(c);
         }
-        Console.WriteLine("CategoriesViewModel constructor called");
-        foreach(var c in _categoryService.GetAllCategories()) 
-            Console.WriteLine(c.Name);
     }
 }
